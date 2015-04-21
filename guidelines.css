@@ -258,9 +258,31 @@ header#page1 {
     float: left;
     padding: 80px;
     background-color: white;
+
+    
+}
+
+.images-right img {
+    
+    display: block;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+
+
+.images-right img#logo-horoz, .images-right img#reversed {
+    
+    
+    width: 70%;
     
     
 }
+
+
+
+
 
 #logo h1 {
     
