@@ -96,7 +96,6 @@ header#page1 {
 }
 
 
-/* ABOUT STYLE */
 
 
 #main {
@@ -106,7 +105,7 @@ header#page1 {
 }
 
 
-#about h1 {
+#main h1 {
     
     
     font-size: 2.618em;
@@ -115,19 +114,43 @@ header#page1 {
 }
 
 
-#about .text {
+.text {
     
     width: 100%;
-    padding: 80px 0;
+    padding: 80px 0 150px 0;
     background-image: url(images/maze-decor.png);   
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right bottom; 
-    border-bottom: 1px solid white;
+/*    border-bottom: 1px solid white;*/
+}
+
+
+.text2 {
+    
+    width: 100%;
+    padding: 80px 0 150px 0;
+    background-image: url(images/maze-decor2.png);   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left 150px; 
+/*    border-bottom: 1px solid white;*/
 }
 
 
 .text p {
+    
+    color: #77CDD8;
+    width: 55%;
+    margin: auto;
+    font-size: 2em; /* 1.618em too small */
+    line-height: 1.5;
+       
+}
+
+
+
+.text2 p {
     
     color: #77CDD8;
     width: 55%;
@@ -144,6 +167,109 @@ header#page1 {
 }
 
 
+#mission, #vision, #strapline, #visual-identity, #logo {
+    
+    margin-top: 250px; /* seporator! */
+    
+}
+
+
+#strapline img {
+    
+    width: 60px;
+    display: block;
+    margin-left: 280px;
+    
+}
+
+
+#strapline .text2 #quote {
+    
+
+  background-image: url(images/quote.png);
+  background-repeat: no-repeat;
+  background-position: 50px 0;
+  padding-top: 40px;
+    
+    
+}
+
+
+
+
+#strapline .text2 p {
+    
+    
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.618em;
+    
+    
+}
+
+
+#visual-identity {
+    
+    
+    font-size: 2em;
+    background-image: url(images/maze-decor.png);   
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+}
+
+#visual-identity header {
+    
+    padding: 400px;
+    background-image: url(images/maze-decor2.png);   
+    background-repeat: no-repeat;
+    background-position: left middle;
+    
+    
+}
+
+
+.text-left, .images-right {
+    
+    width: 450px; /* might have to change due to padding etc. */
+    
+}
+
+
+.text-left {
+    
+    float: left;
+    font-size: 1.618em;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #77CDD8;
+    padding: 80px;
+    padding-top: 20px;
+/*    width: 400px;*/
+    background-color: inherit;
+    
+    
+}
+
+
+
+.images-right {
+    
+    float: left;
+    padding: 80px;
+    background-color: white;
+    
+    
+}
+
+#logo h1 {
+    
+    text-align: left;
+    text-transform: none;
+    font-size: 2em;
+    padding: 20px 0;
+    
+}
 
 
 
