@@ -99,7 +99,7 @@ header#page1 {
 /* ABOUT STYLE */
 
 
-#about {
+#main {
     
     margin-top: 300px;
     
@@ -115,26 +115,26 @@ header#page1 {
 }
 
 
-#about section {
+#about .text {
     
     width: 100%;
-    margin-top: 80px;
-    padding: 80px;
-    background-color: white;
-    
-    
+    padding: 80px 0;
+    background-image: url(images/maze-decor.png);   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom; 
+    border-bottom: 1px solid white;
 }
 
 
-#about p {
+.text p {
     
-    color: #0E1030;
-    width: 60%;
+    color: #77CDD8;
+    width: 55%;
     margin: auto;
     font-size: 2em; /* 1.618em too small */
     line-height: 1.5;
-    
-    
+       
 }
 
 #about p#break {
@@ -142,7 +142,11 @@ header#page1 {
     margin-top: 20px;
     
 }
-    
+
+
+
+
+
 
 
 
