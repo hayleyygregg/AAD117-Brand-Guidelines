@@ -28,6 +28,8 @@ body {
 
 
 
+
+
 header#page1 img {
     
     width: 300px;
@@ -126,10 +128,11 @@ header#page1 {
 }
 
 
+
 .text2 {
     
     width: 100%;
-    padding: 80px 0 150px 0;
+    padding: 80px 0 330px 0; /* was 150 bottom then 250 but forgot to add 80px to make equal to top */
     background-image: url(images/maze-decor2.png);   
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -160,18 +163,32 @@ header#page1 {
        
 }
 
-#about p#break {
+p.break {
     
     margin-top: 20px;
     
 }
 
 
-#mission, #vision, #strapline, #visual-identity, #logo {
+
+
+
+#logo {
     
-    margin-top: 250px; /* seporator! */
+    padding-top: 80px;
+}
+
+
+/*
+#logo-anat .text {
+    
+    
+    padding-bottom: 250px; i dont know why this is here
+    
+    
     
 }
+*/
 
 
 #strapline img {
@@ -228,55 +245,45 @@ header#page1 {
     
 }
 
+/*
 
-.text-left, .images-right {
+.text {
     
-    width: 450px; /* might have to change due to padding etc. */
-    
+    margin: auto;
 }
 
 
-.text-left {
+.text p {
     
-    float: left;
+    width: 45%;
     font-size: 1.618em;
     line-height: 1.5;
     font-weight: 300;
     color: #77CDD8;
-    padding: 80px;
-    padding-top: 20px;
-/*    width: 400px;*/
+    padding: 20px 0;
     background-color: inherit;
     
     
 }
+*/
 
 
 
-.images-right {
+.images {
     
-    float: left;
-    padding: 80px;
+    width: 100%;
+    padding: 80px 0;
     background-color: white;
 
     
 }
 
-.images-right img {
+.images img {
     
+    width: 400px; /* was 40% */
     display: block;
     margin: auto;
-    padding: 10px;
-    
-}
-
-
-
-.images-right img#logo-horoz, .images-right img#reversed {
-    
-    
-    width: 70%;
-    
+    padding: 40px;
     
 }
 
@@ -284,14 +291,45 @@ header#page1 {
 
 
 
-#logo h1 {
+/*
+
+img#logo-full {
     
-    text-align: left;
+    width: 400px;
+    
+}
+*/
+
+
+/* BELOW NEEDED FOR ALL SECTIONS AFTER LOGO */
+
+
+#mission, #vision, #strapline, #visual-identity, #logo-anat, #dodont, #colour, #type {
+    
+    margin-top: 250px; /* seporator! */
+    
+}
+
+
+
+#logo h1, #logo-anat h1, #dodont h1, #colour h1, #type h1 /* overwrighting #main h1  */ {
+    
     text-transform: none;
-    font-size: 2em;
-    padding: 20px 0;
+    font-size: 3em;
+    padding: 20px 0 40px 0;
     
 }
+
+
+
+#logo-anat .text, #dodont .text, #colour .text, #type .text {
+    
+    
+    padding: 80px 0 330px 0;
+    
+}
+
+
 
 
 
