@@ -6,10 +6,11 @@
 
 
 * {
+    
     margin: 0;
     padding: 0;
     font-size: 100%;
-
+    
 }
 
 
@@ -22,7 +23,7 @@ body {
     width: 100%;
     font-family: 'Raleway', Helvetica Neue, Helvetica, sans-serif;
     background-color: #0E1030; /* websafe colour of brand colour #0A1835 */
-    font-size: 62.5%; /* 1em = 10px */
+    font-size: 62.5%; /* 1em = 10px */   
     
 }
 
@@ -30,37 +31,23 @@ body {
 
 
 
-header#page1 img {
+header#page1 img {  
     
     width: 300px;
     display: block;
     margin: auto;
-    padding-top: 150px;
-    
-    
-}
-
-
-/*
-header#page1 h1, header#page1 h2 {
-    
-    color: #77CDD8;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 400;
-
+    padding-top: 150px;  
     
 }
-*/
 
 
-h1, h2 {
+
+h1, h2 {   
     
     color: #77CDD8;
     text-transform: uppercase;
     text-align: center;
     font-weight: 300;
-
     
 }
 
@@ -68,16 +55,16 @@ h1, h2 {
 
 header#page1 h1 {
     
-        padding-top: 40px;
-        font-size: 4.236em;
+    padding-top: 40px;
+    font-size: 4.236em;
     
 }
 
 
 header#page1 h2 {
     
-        padding-top: 10px;
-        font-size: 2.618em;
+    padding-top: 10px;
+    font-size: 2.618em;
     
 }
 
@@ -86,120 +73,115 @@ span.thin {
     
     font-weight: 200;
     
-    
 }
 
 header#page1 {
-    
+
     width: 100%;
 
-    
-    
 }
 
 
 
 
 #main {
-    
+
     margin-top: 300px;
-    
+
 }
 
 
 #main h1 {
     
-    
     font-size: 2.618em;
-    
-    
+
 }
 
 
 .text {
-    
+
     width: 100%;
     padding: 80px 0 150px 0;
     background-image: url(images/maze-decor.png);   
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right bottom; 
-/*    border-bottom: 1px solid white;*/
+
 }
 
 
 
 .text2 {
-    
+
     width: 100%;
     padding: 80px 0 330px 0; /* was 150 bottom then 250 but forgot to add 80px to make equal to top */
     background-image: url(images/maze-decor2.png);   
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left 150px; 
-/*    border-bottom: 1px solid white;*/
+
 }
 
 #moreinfo section {
-    
+
     width: 100%;
     padding: 80px 0 150px 0;
-    
-    
+
+
 }
 
 
 .text p, .text2 p, #moreinfo section p {
-    
+
     color: #77CDD8;
     width: 55%;
     margin: auto;
     font-size: 2em; /* 1.618em too small */
     line-height: 1.5;
-       
+
 }
 
 #moreinfo section p, #moreinfo footer {
-    
+
     text-align: center;
-    
+
 }
 
 
 #moreinfo footer {
-    
+
     color: #77CDD8;
     text-transform: uppercase;
     padding-bottom: 40px;
     font-size: 1.2em;
-    
+
 }
 
 
 
 a {
-    
+
     color: inherit;
     text-decoration: none;
     border-bottom: 1px solid #77CDD8;
-    
+
 }
 
 
 a:hover {
-    
+
     color: #AFD691;
     text-decoration: none;
     border-bottom: 1px solid #AFD691;
-    
+
 }
 
 
 
 p.break {
-    
+
     margin-top: 20px;
-    
+
 }
 
 
@@ -207,176 +189,122 @@ p.break {
 
 
 #logo {
-    
+
     padding-top: 80px;
-}
-
-
-/*
-#logo-anat .text {
-    
-    
-    padding-bottom: 250px; i dont know why this is here
-    
-    
     
 }
-*/
 
 
 #strapline img {
-    
+
     width: 60px;
     display: block;
     margin-left: 280px;
-    
+
 }
 
 
 #strapline .text2 #quote {
-    
 
-  background-image: url(images/quote.png);
-  background-repeat: no-repeat;
-  background-position: 50px 0;
-  padding-top: 40px;
-    
-    
+    background-image: url(images/quote.png);
+    background-repeat: no-repeat;
+    background-position: 50px 0;
+    padding-top: 40px;
+
 }
 
 
 
 
 #strapline .text2 p {
-    
-    
+
     text-transform: uppercase;
     text-align: center;
     font-size: 2.618em;
-    
-    
+
 }
 
 
 #visual-identity {
-    
-    
+
     font-size: 2em;
     background-image: url(images/maze-decor.png);   
     background-repeat: no-repeat;
     background-position: right bottom;
-    
+
 }
 
 #visual-identity header {
-    
+
     padding: 400px;
     background-image: url(images/maze-decor2.png);   
     background-repeat: no-repeat;
     background-position: left middle;
-    
-    
+
 }
-
-/*
-
-.text {
-    
-    margin: auto;
-}
-
-
-.text p {
-    
-    width: 45%;
-    font-size: 1.618em;
-    line-height: 1.5;
-    font-weight: 300;
-    color: #77CDD8;
-    padding: 20px 0;
-    background-color: inherit;
-    
-    
-}
-*/
-
 
 
 .images {
-    
+
     width: 100%;
     padding: 80px 0;
     background-color: white;
 
-    
 }
 
 .images img {
-    
+
     width: 400px; /* was 40% */
     display: block;
     margin: auto;
     padding: 40px;
     
+
 }
 
 
 .images img:hover { /* KEEP OR DELETE? */
-    
-    
-    
+
 -webkit-transform: scale(1.5) translateZ(0);
-    -moz-transform: scale(1.5) translateZ(0);
-    -o-transform: scale(1.5) translateZ(0);
-    transform: scale(1.5) translateZ(0);
-    cursor: pointer;
-    
+-moz-transform: scale(1.5) translateZ(0);
+-o-transform: scale(1.5) translateZ(0);
+transform: scale(1.5) translateZ(0);
+cursor: pointer;
+
 }
 
 
-
-
-
-/*
-
-img#logo-full {
-    
-    width: 400px;
-    
-}
-*/
 
 
 /* BELOW NEEDED FOR ALL SECTIONS AFTER LOGO */
 
 
 #mission, #vision, #strapline, #visual-identity, #logo-anat, #dodont, #colour, #type, #icons, #mazes, #literature, #lingo, #moreinfo {
-    
-    /* seporator! */
-    
+
+/* seporator! */
+
     margin-top: 100px; /* was 250 but changed to add padding so writing in middle when for e.g. the colour link is clicked */
     padding-top: 150px;
 
-    
+
 }
 
 
 
 #logo h1, #logo-anat h1, #dodont h1, #colour h1, #type h1, #icons h1, #mazes h1, #literature h1, #lingo h1, #moreinfo h1 /* overwrighting #main h1  */ {
-    
+
     text-transform: none;
     font-size: 3em;
     padding: 20px 0 40px 0;
-    
+
 }
 
 
 
 #logo-anat .text, #dodont .text, #colour .text, #type .text, #icons .text, #mazes .text, #literature .text, #lingo .text, #moreinfo section {
-    
-    
+
     padding: 80px 0 330px 0;
-    
+
 }
 
 
