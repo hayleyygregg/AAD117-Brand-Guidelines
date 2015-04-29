@@ -140,8 +140,16 @@ header#page1 {
 /*    border-bottom: 1px solid white;*/
 }
 
+#moreinfo section {
+    
+    width: 100%;
+    padding: 80px 0 150px 0;
+    
+    
+}
 
-.text p {
+
+.text p, .text2 p, #moreinfo section p {
     
     color: #77CDD8;
     width: 55%;
@@ -151,17 +159,42 @@ header#page1 {
        
 }
 
+#moreinfo section p, #moreinfo footer {
+    
+    text-align: center;
+    
+}
 
 
-.text2 p {
+#moreinfo footer {
     
     color: #77CDD8;
-    width: 55%;
-    margin: auto;
-    font-size: 2em; /* 1.618em too small */
-    line-height: 1.5;
-       
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    font-size: 1.2em;
+    
 }
+
+
+
+a {
+    
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid #77CDD8;
+    
+}
+
+
+a:hover {
+    
+    color: #AFD691;
+    text-decoration: none;
+    border-bottom: 1px solid #AFD691;
+    
+}
+
+
 
 p.break {
     
@@ -288,6 +321,19 @@ p.break {
 }
 
 
+.images img:hover { /* KEEP OR DELETE? */
+    
+    
+    
+-webkit-transform: scale(1.5) translateZ(0);
+    -moz-transform: scale(1.5) translateZ(0);
+    -o-transform: scale(1.5) translateZ(0);
+    transform: scale(1.5) translateZ(0);
+    cursor: pointer;
+    
+}
+
+
 
 
 
@@ -304,15 +350,19 @@ img#logo-full {
 /* BELOW NEEDED FOR ALL SECTIONS AFTER LOGO */
 
 
-#mission, #vision, #strapline, #visual-identity, #logo-anat, #dodont, #colour, #type {
+#mission, #vision, #strapline, #visual-identity, #logo-anat, #dodont, #colour, #type, #icons, #mazes, #literature, #lingo, #moreinfo {
     
-    margin-top: 250px; /* seporator! */
+    /* seporator! */
+    
+    margin-top: 100px; /* was 250 but changed to add padding so writing in middle when for e.g. the colour link is clicked */
+    padding-top: 150px;
+
     
 }
 
 
 
-#logo h1, #logo-anat h1, #dodont h1, #colour h1, #type h1 /* overwrighting #main h1  */ {
+#logo h1, #logo-anat h1, #dodont h1, #colour h1, #type h1, #icons h1, #mazes h1, #literature h1, #lingo h1, #moreinfo h1 /* overwrighting #main h1  */ {
     
     text-transform: none;
     font-size: 3em;
@@ -322,7 +372,7 @@ img#logo-full {
 
 
 
-#logo-anat .text, #dodont .text, #colour .text, #type .text {
+#logo-anat .text, #dodont .text, #colour .text, #type .text, #icons .text, #mazes .text, #literature .text, #lingo .text, #moreinfo section {
     
     
     padding: 80px 0 330px 0;
