@@ -263,7 +263,13 @@ p.break {
 }
 
 
-.images img:hover { /* KEEP OR DELETE? */
+/*
+
+
+THIS CODE ENLARGES IMAGES WHEN MOUSE HOVERS OVER - DONT THINK I LIKE IT
+
+
+.images img:hover { 
 
 -webkit-transform: scale(1.5) translateZ(0);
 -moz-transform: scale(1.5) translateZ(0);
@@ -272,6 +278,7 @@ transform: scale(1.5) translateZ(0);
 cursor: pointer;
 
 }
+*/
 
 
 
@@ -279,7 +286,7 @@ cursor: pointer;
 /* BELOW NEEDED FOR ALL SECTIONS AFTER LOGO */
 
 
-#mission, #vision, #strapline, #visual-identity, #logo-anat, #dodont, #colour, #type, #icons, #mazes, #literature, #lingo, #moreinfo {
+#mission, #vision, #strapline, #visual-identity, #logo-anat, #workshops, #dodont, #colour, #type, #icons, #mazes, #literature, #pattern, #lingo, #moreinfo {
 
 /* seporator! */
 
@@ -291,7 +298,7 @@ cursor: pointer;
 
 
 
-#logo h1, #logo-anat h1, #dodont h1, #colour h1, #type h1, #icons h1, #mazes h1, #literature h1, #lingo h1, #moreinfo h1 /* overwrighting #main h1  */ {
+#logo h1, #logo-anat h1, #workshops h1, #dodont h1, #colour h1, #type h1, #icons h1, #mazes h1, #literature h1, #pattern h1, #lingo h1, #moreinfo h1 /* overwrighting #main h1  */ {
 
     text-transform: none;
     font-size: 3em;
@@ -301,7 +308,7 @@ cursor: pointer;
 
 
 
-#logo-anat .text, #dodont .text, #colour .text, #type .text, #icons .text, #mazes .text, #literature .text, #lingo .text, #moreinfo section {
+#logo-anat .text, #workshops .text2, #dodont .text, #colour .text2, #type .text, #icons .text2, #mazes .text, #literature .text2, #pattern .text, #lingo .text2, #moreinfo section {
 
     padding: 80px 0 330px 0;
 
