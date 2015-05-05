@@ -99,8 +99,7 @@ header#page1 {
 
 
 .text {
-
-    width: 100%;
+    
     padding: 80px 0 150px 0;
     background-image: url(images/maze-decor.png);   
     background-repeat: no-repeat;
@@ -112,8 +111,7 @@ header#page1 {
 
 
 .text2 {
-
-    width: 100%;
+    
     padding: 80px 0 330px 0; /* was 150 bottom then 250 but forgot to add 80px to make equal to top */
     background-image: url(images/maze-decor2.png);   
     background-repeat: no-repeat;
@@ -126,7 +124,6 @@ header#page1 {
 
     width: 100%;
     padding: 80px 0 150px 0;
-
 
 }
 
@@ -195,20 +192,13 @@ p.break {
 }
 
 
-#strapline img {
-
-    width: 60px;
-    display: block;
-    margin-left: 280px;
-
-}
-
 
 #strapline .text2 #quote {
-
+    
+    width: 800px; /* added */
     background-image: url(images/quote.png);
     background-repeat: no-repeat;
-    background-position: 50px 0;
+    background-position: 60px 0; /* changed */
     padding-top: 40px;
 
 }
@@ -236,7 +226,7 @@ p.break {
 
 #visual-identity header {
 
-    padding: 400px;
+    padding: 400px 0;
     background-image: url(images/maze-decor2.png);   
     background-repeat: no-repeat;
     background-position: left middle;
@@ -313,7 +303,6 @@ cursor: pointer;
     padding: 80px 0 330px 0;
 
 }
-
 
 
 
