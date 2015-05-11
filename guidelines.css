@@ -120,7 +120,7 @@ header#page1 {
 
 }
 
-#moreinfo section {
+#moreinfo-text {
 
     width: 100%;
     padding: 80px 0 150px 0;
@@ -128,7 +128,7 @@ header#page1 {
 }
 
 
-.text p, .text2 p, #moreinfo section p {
+.text p, .text2 p, #moreinfo p {
 
     color: #77CDD8;
     width: 55%;
@@ -138,7 +138,7 @@ header#page1 {
 
 }
 
-#moreinfo section p, #moreinfo footer {
+#moreinfo p, #moreinfo footer {
 
     text-align: center;
 
@@ -298,7 +298,7 @@ cursor: pointer;
 
 
 
-#logo-anat .text, #workshops .text2, #dodont .text, #colour .text2, #type .text, #icons .text2, #mazes .text, #literature .text2, #pattern .text, #lingo .text2, #moreinfo section {
+#logo-anat .text, #workshops .text2, #dodont .text, #colour .text2, #type .text, #icons .text2, #mazes .text, #literature .text2, #pattern .text, #lingo .text2, #moreinfo div#moreinfo-text {
 
     padding: 80px 0 330px 0;
 
